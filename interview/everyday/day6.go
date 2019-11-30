@@ -23,5 +23,7 @@ func main() {
 	fmt.Println(i1, i2)
 }
 //不能，第21行无法将int类型的变量赋值给MyInt1类型的变量
+//强制转换：var i1 MyInt1 = MyInt1(i)
+
 //16行，基于int类型创建新类型MyInt1
 //17行，创建int类型别名MyInt2
