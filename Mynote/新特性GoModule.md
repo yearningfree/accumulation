@@ -25,7 +25,7 @@ Go modules是官方推出1.11版本之后增加的新的依赖管理模块，允
 	    r.Run() 
 	}
 	
-	$ go buil main.go
+	$ go build main.go
 
 此时会在go.mod中引入gin等依赖项
 
